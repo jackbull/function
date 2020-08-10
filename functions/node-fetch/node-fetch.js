@@ -1,6 +1,6 @@
 const fetch = require('node-fetch')
 
-const API_ENDPOINT = 'https://cat-fact.herokuapp.com/facts'
+const API_ENDPOINT = 'http://myip.ipip.net/'
 
 exports.handler = async (event, context) => {
   let response
